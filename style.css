@@ -1,0 +1,42 @@
+.forest {
+    border: 3px dashed #ccc;
+    animation: bg 10s infinite;
+    animation-delay: 2s;
+}
+
+@keyframes bg{
+    0%{
+        background: #fff;
+    }
+
+    50%{
+        background: #fff;
+    }
+
+    100%{
+        background: #000;
+    }
+}
+
+.sun{
+    fill: #fcad3a;
+    animation: sun 10s infinite;
+    animation-delay: 2s;
+}
+
+@keyframes sun{
+    0% {
+        fill: #fcad3a;
+        transform: translate(0, 0);
+    }
+
+    50%{
+        fill: #fcad3a;
+        transform: translate(32.5px, -5px);
+    }
+
+    100% {
+        fill: #fff;
+        transform: translate(67px, 2px);
+    }
+}
